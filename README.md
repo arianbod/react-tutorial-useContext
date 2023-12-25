@@ -1,3 +1,4 @@
+```
 # Context + Custom Hook Tutorial Project
 
 ## Description
@@ -18,6 +19,55 @@ Follow these steps to set up the project:
 
 ### Clone the Repository
 
-```bash
+\```bash
 git clone https://github.com/arianbod/react-tutorial-useContext
 cd react-tutorial-useContext
+\```
+
+### Install Dependencies
+
+\```bash
+npm install
+\```
+
+### Start the Development Server
+
+\```bash
+npm run dev
+\```
+
+This will typically start the server on `http://localhost:5127`.
+
+## Project Structure
+
+- `main.jsx`: The entry point of the React application.
+- `App.jsx`: The main application component.
+- `AppContext.jsx`: Defines the React Context and the global state provider.
+- `Context.jsx`: Contains the custom hook `useGlobalContext`.
+
+Example from `App.jsx`:
+
+\```jsx
+import { useState } from 'react';
+import AppContext from './Context.jsx';
+
+function App() {
+    const [count, setCount] = useState(0);
+    // ... rest of the code
+}
+
+export default App;
+\```
+
+## Usage
+
+The application initializes with a default global state value, which is then accessible and modifiable across components via the `useGlobalContext` hook.
+
+## Contributing
+
+Feel free to contribute to the project. Fork the repository and submit pull requests.
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+```
