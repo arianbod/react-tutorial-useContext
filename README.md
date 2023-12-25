@@ -1,8 +1,31 @@
-# React + Vite
+# Context + Custom Hook Tutorial Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This React application demonstrates the use of React Context along with a custom hook for state management. It's a simple yet powerful example of how to create a global state using React Context and access it across components using a custom hook.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Implementation of React Context for global state management.
+- Custom hook (`useGlobalContext`) for seamless access to the global state.
+- `useState` for local state management within components.
+
+## Installation
+
+Ensure you have [Node.js](https://nodejs.org/) installed on your system before starting.
+
+Follow these steps to set up the project:
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/arianbod/react-tutorial-useContext
+cd react-tutorial-useContext
+```
+# Install Dependencies
+npm i
+
+## run
+```js
+npm run dev
+```
