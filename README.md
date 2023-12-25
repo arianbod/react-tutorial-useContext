@@ -21,3 +21,11 @@ Follow these steps to set up the project:
 ```bash
 git clone https://github.com/arianbod/react-tutorial-useContext
 cd react-tutorial-useContext
+```
+# Install Dependencies
+npm i
+
+## run
+```js
+npm run dev
+```
